@@ -222,7 +222,8 @@ def login(user, password):
 
 # 主函数
 def main(_user,_passwd,min_1, max_1):
-    print("输入参数为",  sys.argv )
+    list_in=sys.argv
+    print("输入参数为",  list_in )
     user = str(_user)
     password = str(_passwd)
     step = str(step1)
